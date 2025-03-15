@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario De Registro</title>
+    <link rel="stylesheet" href="../Formulario/CSS/estilo.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form id="formulario">
+        <label class="Perfil">
+            <h2>Foto de Perfil</h2>
+            <input type="file" id="Perfil" accept="image/*">
+        </label>
+        <br>
+        <label class="Nombre">
+            <h2>Nombre</h2>
+            <input type="text" id="Nombre" placeholder="Tu nombre">
+        </label>
+        <br>
+        <label class="Email">
+            <h2>Email</h2>
+            <input type="email" id="Email" placeholder="correo@ejemplo.com">
+        </label>
+        <br>
+        <label class="Numero">
+            <h2>Número</h2>
+            <input type="number" id="Numero" placeholder="Tu número">
+        </label>
+        <br>
+        <label class="Contra">
+            <h2>Contraseña</h2>
+            <input type="password" id="Contra" placeholder="Tu contraseña">
+        </label>
+        <br>
+        <label class="ConfirmaContra">
+            <h2>Confirmar Contraseña</h2>
+            <input type="password" id="ConfirmaContra" placeholder="Repite la contraseña">
+        </label>
+        <br>
+        <button type="submit" id="btnRegistrar">Registrar</button>
+        <button type="button" id="btnLogin">Iniciar Sesión</button>
+    </form>
+
+    <script src="../Formulario/JS/script.js"></script>
+</body>
+</html>
